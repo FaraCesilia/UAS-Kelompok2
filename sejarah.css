@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam&display=swap');
+*{  
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+}
+body{
+    position: relative;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    padding: 25px 30px 25px 50px;
+    background-color: #405EA6;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav{
+    position: relative;
+    display: inline-block;
+}
+nav a{
+    background-color: #405EA6;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #81A1DA;
+    border-radius: 5px;
+    color: #fff;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown .dropbtn{
+    background-color: #405EA6;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+.dropdown .dropdown-content a{
+    color: #405EA6;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: block;
+    background-color: #C2D9F8;
+    background-color: #fff;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown .dropdown-content a:hover {
+    color: #8FDDE7;
+    
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #81A1DA;
+}
+main{
+    padding-top: 50px;
+    margin-top: 100px;
+}
+.berita h2{
+    text-align: center;
+    color: #fff;
+    width: 720px;
+    height: 50px;
+    background-color: #405EA6;
+    padding: 10px;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+article.sejarah{
+    margin-bottom: 100px;
+}
+
+.container{
+	margin-top: 5px;
+    margin-left: 250px;
+	width: 500px;
+	height: 350px;
+}
+
+.container img{
+    justify-content: center;
+    border: 2px;
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+}
+
+.isisejarah{
+    border: solid#def3f8;;
+    background-color: #def3f8;
+    width: 1100px;
+    height: 320px;
+    padding: 35px 10px 15px 10px;
+    margin: 20px 20px 20px 100px;
+    border-radius: 20px;
+}
+
+p.judul{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+p.isi{
+    text-align: justify;
+    font-size: 17px;
+    color: black;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+footer{
+    display: inline-block;
+    margin-top: 5%;
+    width: 100%;
+    height: 190px;
+    background-color: #405EA6;
+}
+footer .containerfooter{
+    padding: 50px;
+    display: inline-block;
+    color: #fff;
+}
+footer .containerfooter h1{
+    color: #fff;
+    padding: 10px 0 0;
+}
+footer .containerfooter p{
+    color: #fff;
+}
+footer .sosmed{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    margin: 15px 0px 0px 500px;
+}
+footer .sosmed h4{
+    font-size: 25px;
+}
+footer .sosmed a{
+    margin-top: 2px;
+    text-decoration: none;
+    color: #fff;
+}
+footer .sosmed a:hover{
+    color: orange;
+}
+@media(min-width:375px) and (max-width: 667px){
+    body{
+        position: relative;
+        overflow-x: hidden;
+    }
+    header{
+        position: fixed;
+        background-color: #405EA6;
+        display: inline-table;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logo a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        justify-content: center;
+        margin-left: 80px;
+        font-weight: bold;
+    }
+    nav{
+        margin-top: 20px;
+        position: relative;
+        display: inline-table;
+    }
+    nav a{
+        display:inline-block;
+        background-color: #405EA6;
+        color: #fff;
+        padding: 7px;
+        font-weight: bold;
+        margin-left: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    nav a:hover{
+        background-color: #81A1DA;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .dropdown{
+        padding: 5px;
+        display: inline-block;
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .dropdown .dropbtn{
+        background-color: #405EA6;
+        color: #fff;
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+    }
+    .dropdown .dropdown-content{
+        position: absolute;
+    }
+    .dropdown .dropdown-content a{
+        color: #405EA6;
+        margin-top: 2px;
+        margin-left: -1px;
+        padding: 15px;
+        text-decoration: none;
+        display: block;
+        background-color: #fff;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown .dropdown-content a:hover {
+        color: #8FDDE7;
+        
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #81A1DA;
+    }
+    main{
+        display: inline-block;
+    }
+    .berita h2{
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        width: 300px;
+        height: 65px;
+        background-color: #405EA6;
+        padding: 20px;
+        margin-left: 100px;
+        margin-top: 90px;
+        border-radius: 10px;
+    }
+    article.sejarah{
+        margin-bottom: 100px;
+    }    
+    .container{
+        margin-top: 10px;
+        width: 500px;
+        height: 350px;
+        margin-left: 50px;
+    }   
+    .container img{
+        justify-content: center;
+        border: 2px;
+        border-radius: 25px;
+        margin-top: 20px;
+        width: 400px;
+        height: 200px;
+    } 
+    .isisejarah{
+        border: solid#def3f8;;
+        background-color: #def3f8;
+        width: 400px;
+        height: 450px;
+        margin: 0px 20px 0px 50px;
+        border-radius: 20px;
+    }
+    p.judul{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        
+    } 
+    p.isi{
+        text-align: left;
+        font-size: 17px;
+        color: black;
+        padding: 15px;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+    footer{
+        display: inline-table;
+        width: 100%;
+        height: 300px;
+        background-color: #405EA6;
+    }
+    footer .containerfooter{
+        padding-top: 30px;
+        display: inline-table;
+        color: #fff;
+    }
+    footer .containerfooter h1{
+        color: #fff;
+        padding: 10px 0 0;
+    }
+    footer .containerfooter p{
+        color: #fff;
+    }
+    footer .sosmed{
+        color: #fff;
+        display: inline;
+        text-decoration: none
+    }
+    footer .sosmed h4{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    footer .sosmed a{
+        margin-top: 2px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: #fff;
+    }
+    footer .sosmed a:hover{
+        color: orange;
+    }
+}
