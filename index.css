@@ -27,7 +27,6 @@ header{
     font-weight: bold;
 }
 nav{
-    position: relative;
     display: inline-block;
 }
 nav a{
